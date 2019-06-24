@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "NodePlanetaRestApi",
+		"_postman_id": "e1e3f170-bed2-2c12-4ec9-6cc2be3f0869",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "allPlanetas",
+			"request": {
+				"url": "http://localhost:3000/planetas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "criar Planeta",
+			"request": {
+				"url": "http://localhost:3000/planetas",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Yavin IV\",\n\t\"clima\": \"temperate, tropical\",\n\t\"terreno\": \"jungle, rainforests\",\n\t\"swApiId\": \"3\",\n\t\"filmes\": [\n\t    \"https://swapi.co/api/films/1/\"\n\t]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
