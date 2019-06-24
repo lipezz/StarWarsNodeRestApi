@@ -1,4 +1,3 @@
-#swapiNodeApi
 <ul>
 <li>Api feita em Nodejs, utilizando o framework Express</li>
 <li>A Api executa operações CRUD de planetas no MongoDB, e também consulta filmes para um planeta na swapi.com;</li>
